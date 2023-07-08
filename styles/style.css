@@ -44,7 +44,7 @@ nav a{
 /* Style for header */
 .header{
     background-color: #FFF8F3;
-    /* height: 100vh; */
+    
 }
 
 .profile-pic{
@@ -53,7 +53,7 @@ nav a{
 }
 .banner{
     display: flex;
-    padding: 30px 30px 0px 150px;
+    padding: 0px 30px 0px 150px;
     align-items: center;
     background-image: url(../images/header_bg.png) ;
     background-repeat: no-repeat;
@@ -62,11 +62,76 @@ nav a{
 }
 .description{
     max-width: 800px;
+    /* padding: 50px; */
+    align-items: center;
 }
 .banner .profile-pic{
     width: 500px;
     height: 600px;
 }
 .para1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: fantasy;
 }
+.banner .developer-pic{
+    /* margin: 0px 0px 10px 100px; */
+    padding: 0px 30px 100px 50px;
+    align-items: center;
+}
+.dv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* About Section Style Here */
+.about{
+    width: 900px;
+    height: 350px;
+    /* border-radius: 10px; */
+    background: #FFF8F3;
+    padding: 150px 200px;
+    margin: 220px 530px 220px 410px;
+    align-items: center;
+}
+.abt-description{
+    color:  #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.abt-title{
+    color: #181818;
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.one{
+    color: #757575;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.name{
+    color: black;
+    font-style: bold;
+}
+
+
+
+
