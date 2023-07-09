@@ -187,10 +187,32 @@ main section {
 
 /* Resume */
 .resume-colum-title {
-    color:  #474747;
+    color: #474747;
     font-family: Open Sans;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px
+}
+
+.resume-item-institute, .resume-item-description {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.resume-container hr{
+    margin: 30px;
+    background: #D1D1D1;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
