@@ -1,16 +1,23 @@
 /* Common Shared styles */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* *{
     margin: 0;
     padding: 0;
 } */
 /* Navber Style */
-.primary-color{
+main {
+    width: 1600px;
+    height: 4256px;
+}
+
+.primary-color {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -19,81 +26,111 @@ body{
     font-weight: 700;
     padding: 15px 35px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     margin: 0px 200px;
 }
-.nav-title{
+
+.nav-title {
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
 
 /* Style for header */
-.header{
+.header {
     background-color: #FFF8F3;
-    
+
 }
 
-.profile-pic{
+.profile-pic {
     width: 320px;
     height: 440px;
 }
-.banner{
+
+.banner {
     display: flex;
     padding: 0px 30px 0px 150px;
     align-items: center;
-    background-image: url(../images/header_bg.png) ;
+    background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     justify-content: space-between;
 }
-.description{
+
+.description {
     max-width: 800px;
     /* padding: 50px; */
     align-items: center;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 500px;
     height: 600px;
 }
-.para1{
+
+.para1 {
     font-family: fantasy;
 }
-.banner .developer-pic{
+
+.banner .developer-pic {
     /* margin: 0px 0px 10px 100px; */
     padding: 0px 30px 100px 50px;
     align-items: center;
 }
-.dv{
+
+.dv {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-/* About Section Style Here */
-.about{
-    width: 900px;
-    height: 350px;
-    /* border-radius: 10px; */
-    background: #FFF8F3;
-    padding: 150px 200px;
-    margin: 220px 530px 220px 410px;
-    align-items: center;
+
+main {
+    max-width: 1140px;
+    margin: auto;
 }
-.abt-description{
-    color:  #757575;
+
+main section {
+    margin-top: 130px;
+}
+
+/* About Section Style Here */
+.about {
+
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+}
+
+.title {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.abt-description {
+    color: #757575;
     text-align: center;
     font-family: Open Sans;
     font-size: 18px;
@@ -101,37 +138,59 @@ nav a{
     font-weight: 400;
     line-height: 30px;
 }
-.abt-title{
-    color: #181818;
-text-align: center;
-font-family: Open Sans;
-font-size: 35px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
 
-
-
-.footer{
+.about-info-container {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
     display: flex;
     justify-content: space-around;
-}
 
-.one{
-    color: #757575;
-text-align: center;
-font-family: Open Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-}
-.name{
-    color: black;
-    font-style: bold;
 }
 
 
+/* What I Do */
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
+#what-i-do {
+    padding: 30px 150px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Resume */
+.resume-colum-title {
+    color:  #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
